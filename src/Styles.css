@@ -1,5 +1,48 @@
 .Home{
     width: 100%;
     height: 100vh;
-    background-image: url('./assets/images/netflix.jpg');
+    background: url('./assets/images/netflix.jpg') no-repeat left;
+    background-size: cover;
+}
+
+.Home-A{ 
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+}
+
+.Header{
+    z-index: 100;
+}
+
+.Header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.Header nav .Signin{
+    background-color: red;
+    height: 32px;
+    width: 77px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 13.6px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-right: 170px;
+}
+
+.Header nav .Logo{
+    margin-left: 150px;
+}
+
+.Container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
